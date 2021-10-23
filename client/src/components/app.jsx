@@ -20,7 +20,9 @@ class App extends React.Component {
       <div>
         <h1>Connect Four!</h1>
         <h2>{this.state.announcement}</h2>
-        <Board/>
+        <div className="board">
+          <Board/>
+        </div>
       </div>
     )
   }
